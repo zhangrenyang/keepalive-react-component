@@ -5,7 +5,7 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      name: 'react-keepalive',
+      name: 'keepalive-react-component',
       file: 'lib/index.js',
       format: 'cjs',
       sourcemap: true
@@ -23,9 +23,9 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      name: 'react-keepalive',
+      name: 'keepalive-react-component',
       file: 'lib/index.min.js',
-      globals:'ReactKeepalive',
+      globals:'KeepaliveReactComponent',
       format: 'umd'
     },
     external: [
