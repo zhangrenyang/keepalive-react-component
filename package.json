@@ -1,0 +1,32 @@
+{
+  "name": "keepalive-react-component",
+  "version": "1.0.1",
+  "description": "实现react的组件缓存",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "keywords": [
+    "react",
+    "react-router",
+    "react-router-dom",
+    "keepalive",
+    "react hooks"
+  ],
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "repository": "https://github.com/zhangrenyang/react-keepalive",
+  "author": "zhangrenyang",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "rollup": "^1.32.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
