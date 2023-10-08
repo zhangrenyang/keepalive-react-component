@@ -4,7 +4,7 @@ function cacheReducer(cacheStates = {}, { type, payload }) {
         case cacheTypes.CREATE:
             return { ...cacheStates,
                 [payload.cacheId]: {
-                    scrolls:{},
+                    scrolls:new Map(),
                     cacheId:payload.cacheId,
                     element:payload.element,
                     status:cacheTypes.CREATE
